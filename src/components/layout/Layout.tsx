@@ -14,7 +14,9 @@ const Layout = ({
         <Header />
         <div className="h-screen flex overflow-y-auto bg-[#F5F5F5]">
           <SideBar />
-          <div className="flex-grow p-2 md:p-4">{children}</div>
+          <div className="flex-grow p-2 md:p-4 lg:px-12 lg:py-8">
+            {children}
+          </div>
         </div>
       </div>
     </>
